@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blanks Cereals Portfolio</title>
+    <link rel="stylesheet" href="fm2o.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <button><a href="farmlnk.html">Home</a></button>
+            <button onclick="scrollToSection('products')">Products</button>
+            <button onclick="scrollToSection('videos')">Videos</button>
+            <button onclick="scrollToSection('footer')">Footer</button>
+  
+        </nav>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile-section">
+       
+        <div class="portfolio-container">
+            <!-- Left Section: Profile Picture and Details -->
+            <div class="profile-left">
+              <img src="Pictures/Saved Pictures/coursera/bll.png" alt="Profile Picture" class="profile-picture">
+              <div class="user-details">
+                <h1>Billy Blanks</h1>
+                <p>Entrepreneur | Procurement</p>
+                <button class="call-button">Call</button>
+                <button class="email-button">Send Email</button>
+              </div>
+            </div>
+          
+            <!-- Right Section: Bio and Certificates -->
+            <div class="profile-right">
+              <!-- Bio Section -->
+              <div class="bio-section">
+                <h3>About Me</h3>
+                <p>
+                  Experienced entrepreneur specializing in sustainable farming practices. 
+                  Passionate about delivering fresh and organic produce to clients.
+                  Over 10 years of experience in agriculture and business.
+                </p>
+              </div>
+          
+              <!-- Certificates/License Section -->
+              <div class="certificates-section">
+                <h3>Certificates & Licenses</h3>
+                <div class="certificate-item">
+                  <img src="Pictures/Saved Pictures/coursera/cert.jpg" alt="Certificate" class="certificate-image">
+                  <p>Trading License - 2024</p>
+                </div>
+                <div class="certificate-item">
+                  <img src="Pictures/Saved Pictures/coursera/html.jpg" alt="Certificate" class="certificate-image">
+                  <p>Organic Farming Certification - 2023</p>
+                </div>
+                <div class="certificate-item">
+                  <img src="Pictures/Saved Pictures/coursera/gthub.jpg" alt="Certificate" class="certificate-image">
+                  <p>Organic Farming Certification - 2023</p>
+                </div>
+                <!-- Add more certificates as needed -->
+              </div>
+            </div>
+          </div>
+          
+    </section>
+
+    <!-- Product Gallery Section -->
+    <section id="products" class="product-gallery">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="Pictures/Saved Pictures/coursera/maize.jpg" alt="Product 1">
+                    <h3>Corn Flakes</h3>
+                    <p>Fresh and crunchy corn flakes, perfect for your breakfast.</p>
+                </div>
+                <div class="product-card">
+                    <img src="Pictures/Saved Pictures/coursera/sugarsnap.jpg" alt="Product 2">
+                    <h3>Oats</h3>
+                    <p>100% natural oats, rich in fiber and nutrients.</p>
+                </div>
+                <div class="product-card">
+                    <img src="Pictures/Saved Pictures/coursera/tomatoes.jpg" alt="Product 3">
+                    <h3>Wheat Flour</h3>
+                    <p>High-quality wheat flour for all your baking needs.</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+       
+
+<!-- Recipe Section -->
+<div id="recipe-section" class="recipes-container">
+  <h3>Recipes for Various Products</h3>
+  <button id="view-recipes">Recipes to Prepare</button>
+ 
+  <!-- Dynamic content will load here -->
+</div>
+
+    </section>
+
+    <!-- Footer with Videos -->
+    <section id="videos">
+        <h2>Videos</h2>
+        <div class="video-grid">
+          <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/example1" title="Video 1" allowfullscreen></iframe>
+          </div>
+          <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/example2" title="Video 2" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+       <footer
+            <section id="footer" class="footer">
+             <div class="footer-content">
+                 <h4>FarmLink</h4>
+                 <p>Connecting farmers to opportunities, one click at a time.</p>
+                  <small>&copy; 2024 FarmLink. All rights reserved.</small>
+              </div>
+             </section>
+     </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>

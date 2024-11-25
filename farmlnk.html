@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmLink1.O - Bid and Deliver</title>
+  <link rel="stylesheet" href="fm2.css">
+</head>
+<body>
+    
+        
+    <header class="navbar">
+        <h1 class="logo">FarmLink</h1>
+        <h2>Welcome to FarmLink</h2>
+        <p>Empowering Farmers with Technology to sell Smarter.</p>
+        <button class="cta-button" onclick="exploreCategories()">Explore Categories</button>
+      </section>
+        <nav>
+          <ul class="nav-links">
+            <li><button><a href="farmlnk.html">Home</a></button>
+            <button><a href="#categories">Categories</a></button>
+            <button><a href="#bidding">Live Bidding</a></button>
+            <button><a href="#profile">Profile</a></button>
+            <button><a href="log.html">Log in</a></button>
+              </li>
+          </ul>
+        </nav>
+      </header>
+    
+      
+  
+  </header>
+
+  <section id="categories">
+    <h2>Categories</h2>
+    <div id="category-grid" class="scroll-dots"></div>
+  </section>
+  <section id="market" class="market-section">
+    <h2>Today's Market</h2>
+    <div id="market-prices" class="scroll-dots">
+        
+    </div>
+  </section>
+
+  <section class="scroll bidding-section">
+    <h2>Market Today Live Buyer</h2>
+    <div id="bidding-area" class="scroll-dots"></div>
+    <h3>Search buyer in your area</h3>
+    <div class="bidders-controls">
+        <input type="text" id="filter-location" placeholder="Filter by location" />
+        <button onclick="applyFilter()">Apply Filter</button>
+      </div>
+    <hr>
+    <table id="bidder-info">
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Bidder</th>
+            <th>Bid Amount</th>
+            <th>Product</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic Content -->
+        </tbody>
+      </table>
+    </section>
+
+
+
+    <section id="sellers" class="sellers-section">
+            <h2>sellers today</h2>
+           <div id="sellerslst1" class="scroll-dots">
+    
+                     <!-- Header Section -->
+               
+                <img src="c:\Users\ADMN\Pictures\Saved Pictures\coursera\bll.jpg" alt="Buyer Photo" class="buyer-photo">
+                <h1 class="buyer-name">Bill Mbiru</h1>
+                <button><a href="portfolio.html">View Portfolio</a></button>
+                <p>We buy cereal from the farmer and sell to internatonal clients.
+                  Feel free to contact and sell your product to us. 
+                  View my portfolio and view products we deal in on top of what Im buying today.
+                  We also sell recommended farm chemicals. Check our portfolio for more detailed info about our company.
+                </p>
+                
+
+
+  
+              
+            </div>
+
+          </section>    
+    
+    
+    
+    
+          <section id="transport-section">
+      
+                      <h3>Transport Options</h3>
+                            <hr>
+              <div class="transport-search">
+               <input type="text" placeholder="Search transport" class="transport-input">
+               <button class="transport-btn">Search</button>
+              </div>
+           <div id="transport-options" class="scroll-content">
+           </div>
+         </section>
+         
+
+
+
+         <section id="videos">
+          <h2>Videos</h2>
+          <div class="video-grid">
+            <div class="video-box">
+              <iframe src="https://www.youtube.com/embed/example1" title="Video 1" allowfullscreen></iframe>
+            </div>
+            <div class="video-box">
+              <iframe src="https://www.youtube.com/embed/example2" title="Video 2" allowfullscreen></iframe>
+            </div>
+          </div>
+        </section>
+
+  
+  
+  
+  
+  
+  
+  
+  
+         <footer>
+    <button class="nav-btn buy-btn">Buy</button>
+    <button class="nav-btn sell-btn">Sell</button>
+    <footer class="footer">
+        <div class="footer-content">
+          
+          <ul class="footer-list">
+            <li><button>FAQ</button>
+            <button>Email</button>
+            <button><a href="farmlnk.html">Home</button></li>
+          </ul>
+          <div class="footer-info">
+            <p>Company Details: contact@aobizness@gmail.com.com | +254 700  912 695</p>
+            <p>&copy; 2024 Project T. All Rights Reserved.</p>
+          </div>
+          
+        </div>
+    
+    </div>
+    
+  </footer>
+  <script src="farmlnk.js"></script>
+</body>
+</html>

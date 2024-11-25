@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .nav-links button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links button {
+    background: #264653;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.2rem;
+    cursor: pointer;
+  }
+  
+  .nav-links button:hover {
+    background: #1d3557;
+  }
+  
+  .cta-button {
+    background: #e76f51;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background: #d62a1e;
+  }
+  
+  /* Section Styling */
+  .market-section,
+  
+  .bidding-section,
+  .transport-section {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    color: #264653;
+    margin-bottom: 1rem;
+  }
+  
+  /* Scrollable Section */
+  .scroll-dots,
+  .scroll-content {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  .scroll-dots::-webkit-scrollbar,
+  .scroll-content::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Webkit browsers */
+  }
+  
+  .category-card {
+    min-width: 150px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.2);
+  }
+  
+  .category-card:hover {
+    background-color: #21867a;
+  }
+  
+  /* Bidders Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #264653;
+    color: white;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    background-color: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  td.bidder:hover .tooltip {
+    visibility: visible;
+  }
+  
+  td.location {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #57b7dc;
+    color: white;
+    
+    text-align: center;
+    height: 200px;
+  }
+  
+  .footer-list button {
+    background: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    cursor: pointer;
+    ;
+  }
+  
+  .footer-list button:hover {
+    background: #21867a;
+  }
+  
+ sellers{
+  display: flex;
+ flex-wrap: wrap;
+ font: 1em sans-serif;
+ }
+ .buyer-header{flex-grow: 1;
+ flex-basis: 200;
+ padding: 200;
+ display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 0.5%;
+}
+
+.buyer-photo {
+  padding: 400;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.buyer-name {
+  font-size: 2em;
+  color: #333;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+/* Video Section */
+ .video-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 2px solid #ddd;
+}
+
+.video-section h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #16a085;
+}
+
+.video-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-box {
+  width: 300px;
+  text-align: center;
+}
+
+.video-box video {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+}
+
+.video-box p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+ /* Videos Section */
+ .video-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.video-box iframe {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}

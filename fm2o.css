@@ -1,0 +1,300 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    background: white;
+    color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background: #16a085;
+    color: white;
+  }
+  
+  /* Profile Section */
+  .profile-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 400px; /* Adjust the width as needed */
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  }
+  
+  /* Profile Picture */
+.profile-container img {
+    width: 150px; /* Adjust to your preferred size */
+    height: 150px; /* Keep aspect ratio */
+    object-fit: cover; /* Ensures the image fits within the box */
+    border-radius: 50%; /* Circular shape */
+    border: 3px solid #16a085; /* Add a border for styling */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .action-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #34495e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:hover {
+    background: #2c3e50;
+  }
+  
+  /* Products Section */
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Videos Section */
+  .video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .video-box iframe {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  /* Active Navigation Button */
+nav button.active {
+    background: #16a085;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  /* Clicked Animation */
+  nav button.clicked {
+    transform: scale(0.95);
+    transition: transform 0.2s ease;
+  }
+  /* Video Section */
+.video-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+  }
+  
+  .video-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #16a085;
+  }
+  
+  .video-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video-box {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .video-box video {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+  }
+  
+  .video-box p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  /* Portfolio Container */
+.portfolio-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+  }
+  
+  /* Left Section */
+  .profile-left {
+    flex: 1;
+    text-align: center;
+    border-right: 2px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #16a085;
+  }
+  
+  .user-details h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .user-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .call-button,
+  .email-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    background-color: #16a085;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .call-button:hover,
+  .email-button:hover {
+    background-color: #138d75;
+  }
+  
+  /* Right Section */
+  .profile-right {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .bio-section h3,
+  .certificates-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #16a085;
+  }
+  
+  .bio-section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .certificates-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .certificate-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+  }
+  
+  .certificate-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  /* Recipe Section Styling */
+.recipes-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .recipes-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #16a085;
+  }
+  
+  .recipe-card {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .recipe-card h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .recipe-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+  }
+  
